@@ -10,7 +10,7 @@ const tasks = [
         <li>An inflatable tube</li>
       </ul>
       <strong>Beware of double agents!</strong>`,
-      answer: "Liefde is alles wat we nodig hebben"
+      answer: "hihi xd"
     },
     {
       question: "Task 2: Bel Lennerd voor je volgende opdracht! ",
