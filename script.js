@@ -48,8 +48,9 @@ const tasks = [
     In white upon the cobblestone,<br>
     Draw a heart, not carved in stone.<br>
     Inside, two runes side by side,<br>
-    Your initials bold with pride.`,
-        answer: "jippe"
+    Your initials bold with pride.<br><br>
+    - Stuur een foto in de chat!`,
+        answer: "Geduld"
       },
   ];
   
@@ -81,7 +82,7 @@ const tasks = [
       } else {
         localStorage.removeItem('currentTaskIndex'); // clear storage on completion
         document.getElementById('task-text').innerHTML = `
-        🎉 Gefeliciteerd! Nog 1 laatste tripje!<br><br>
+        🎉 Gefeliciteerd! Nog 1 laatste tripje!<br><br> - Luka ❤️ <br><br>
         <img src="assets/sol.jpg" alt="Solution" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" />`;
         document.getElementById('answer-input').style.display = 'none';
         document.querySelector('button').style.display = 'none';
