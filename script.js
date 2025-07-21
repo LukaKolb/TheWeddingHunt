@@ -13,7 +13,7 @@ const tasks = [
       answer: "hihi xd"
     },
     {
-      question: "Task 2: Bel Lennerd voor je volgende opdracht! ",
+      question: "Task 2: Bel Lennerd voor je volgende opdracht!<br><br>Stuur een screenshot van het resulaat in de chat.",
       answer: "jippe"
     },
     {
@@ -21,7 +21,7 @@ const tasks = [
     Jullie Runescape-avontuur begint met een lege inventaris, behalve voor de meest basale uitrusting. Zoek in jullie huis de drie meest nutteloze, onhandige of grappige objecten die jullie bezitten.<br>
     Deze moeten objecten zijn die je in RuneScape <strong>nooit</strong> in je inventaris zou willen hebben (bijv. een kapotte paraplu, een enkele sok, een te kleine kinderfietshelm).<br><br>
     Stuur de drie objecten die hebben jullie gekozen in de chat?`,
-        answer: "jippe" 
+        answer: "Tijd voor het echte werk" 
       },
       {
         question: `De 'Noob Walk' Uitvoeren:<br><br>
@@ -29,7 +29,7 @@ const tasks = [
     Neem een video van maximaal 10 seconden op waarin jullie als duo een 'Noob Walk' uitvoeren van de ene naar de andere kant van jullie woonkamer.<br>
     Eén van jullie moet precies de RuneScape 'walk animation' nadoen (armen stil, schouders omhoog, benen stijf), terwijl de ander de drie nutteloze objecten vasthoudt en probeert te jongleren of op een andere onhandige manier beweegt.<br><br>
     Hebben jullie deze 'Noob Walk' uitgevoerd en de video gestuurd?`,
-        answer: "jippe" 
+        answer: "Moves like dagger" 
       },
 
       {
@@ -37,7 +37,38 @@ const tasks = [
     Maak na de video een foto samen waarbij jullie er zo 'noob' mogelijk uitzien (bijv. verwarde blik, kleding half binnenstebuiten) en de drie nutteloze objecten prominent in beeld zijn.<br>
     Deze foto is jullie bewijs van 'Noob Status'#JustMarried.<br><br>
     Hebben jullie de foto gemaakt en gestuurd?`,
-        answer: "jippe"
+        answer: "Elkaars inventory als levenslange quest"
+      },
+      {
+        question: `Dappere avonturiers!<br><br>
+    Jullie hebben de <strong>Paden van de Noob</strong> bewandeld, de <strong>Chaos van de Culinaire Inventaris</strong> getemd, de <strong>Essentie van de Runen</strong> begrepen, en de <strong>Waarheid van de Wereld</strong> verkondigd!<br>
+    Elke uitdaging, elke lach, elke zucht heeft een Rune blootgelegd — een fragment van een groter geheim dat jullie met ijver hebben verzameld.<br><br>
+    
+    <ul style="list-style: none; padding-left: 0;">
+      <li>🪙 De <strong>'J'</strong> van jullie Noob-begin, geweven in de stof van de alledaagse strijd.</li>
+      <li>⭕ De <strong>'O'</strong> van de Overweldigende overvloed, gevangen in de ronde perfectie.</li>
+      <li>🔴 De <strong>'R'</strong> van het Ritueel, geworteld in de roodheid van jullie kracht.</li>
+      <li>📣 De <strong>'N'</strong> van het Nieuws, verkondigd met de standvastigheid van jullie lichaam.</li>
+    </ul>
+    
+    Verbind deze Runen, zoals de Oude Wijzen de draden van het lot sponnen!<br><br>
+    
+    De perkamentrol gloeit helderder, en de stem spreekt met hernieuwde kracht:<br><br>
+    <em>"Jullie RuneScape-queeste, hoe epiloog het ook mag lijken, is slechts het begin van een veel groter avontuur. De schaduwen van Gielinor roepen jullie, maar de draad van het lot ligt nu in de handen van een nieuwe gids. Degene wiens naam jullie zojuist hebben ontcijferd is de sleutel — de Meester van de Logica en de Hoeder van de Volgende Proef."</em><br><br>
+    
+    <strong>Wie is de gids die genoemd wordt?</strong>`,
+        answer: "jorn" 
+      },
+      {
+        question: `Clad in black latex,<br>
+    this man fights water.<br>
+    His handling of balls is poor,<br>
+    he is no friend of the Roman emperor living in his house,<br>
+    but he remains a true champion.<br><br>
+    
+    <strong>What is his name?</strong><br><br>
+    -@jorn kan je bijstaan voor een prijsje natuurlijk!`,
+        answer: "gimp x4vier" 
       },
       {
         question: `Where law and love together lie,<br>
@@ -50,7 +81,7 @@ const tasks = [
     Inside, two runes side by side,<br>
     Your initials bold with pride.<br><br>
     - Stuur een foto in de chat!`,
-        answer: "Geduld"
+        answer: "geduld"
       },
   ];
   
