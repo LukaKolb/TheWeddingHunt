@@ -31,6 +31,7 @@ const tasks = [
     Hebben jullie deze 'Noob Walk' uitgevoerd en de video gestuurd?`,
         answer: "jippe" 
       },
+
       {
         question: `De 'Noob Inventaris Foto':<br><br>
     Maak na de video een foto samen waarbij jullie er zo 'noob' mogelijk uitzien (bijv. verwarde blik, kleding half binnenstebuiten) en de drie nutteloze objecten prominent in beeld zijn.<br>
@@ -38,20 +39,18 @@ const tasks = [
     Hebben jullie de foto gemaakt en gestuurd?`,
         answer: "jippe"
       },
-    {
-        question: `OSRS Skills Challenge!<br><br>
-        Jij en Jolien gaan samen <strong>alle</strong> OSRS skills opnoemen in één filmpje. Jullie nemen samen een video op waarin jullie om de beurt één skill noemen, zonder te spieken!<br><br>
-        <span style="color: #ff4444; font-weight: bold;">Elke skill moet binnen 1 minuut genoemd worden.</span> Als jullie te lang wachten of iets missen, is de challenge voorbij.<br><br>
-        Belangrijk:<br>
-        <ul style="list-style: disc; padding-left: 20px;">
-          <li>Zeg om de beurt een skill op.</li>
-          <li>Geen spieken of hulp gebruiken tijdens de opname.</li>
-          <li>Jullie moeten samen alle skills noemen, zonder iets over te slaan.</li>
-          <li>Stuur de volledige video in de groepschat + bloopers mogen ;).</li>
-        </ul>
-        <strong>Wie kan het helemaal afmaken zonder fouten? Succes!</strong>`,
-      answer: "Jorre"
-    }
+      {
+        question: `Where law and love together lie,<br>
+    Beneath the crest and flag on high.<br>
+    Lovers pass through arch and square <br>
+    Leave your mark if you both dare.<br><br>
+    
+    In white upon the cobblestone,<br>
+    Draw a heart, not carved in stone.<br>
+    Inside, two runes side by side,<br>
+    Your initials bold with pride.`,
+        answer: "jippe"
+      },
   ];
   
   // Initialize currentTaskIndex from localStorage or 0
@@ -81,7 +80,9 @@ const tasks = [
         showTask();
       } else {
         localStorage.removeItem('currentTaskIndex'); // clear storage on completion
-        document.getElementById('task-text').textContent = "🎉 Gefeliciteerd! Hunt completed!";
+        document.getElementById('task-text').innerHTML = `
+        🎉 Gefeliciteerd! Nog 1 laatste tripje!<br><br>
+        <img src="assets/sol.jpg" alt="Solution" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" />`;
         document.getElementById('answer-input').style.display = 'none';
         document.querySelector('button').style.display = 'none';
       }
